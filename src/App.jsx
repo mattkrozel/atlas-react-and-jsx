@@ -1,7 +1,11 @@
-import { Greeting } from './components/Greeting';
+import { Header } from './components/Header';
 
 function App() {
-  return <Greeting />;
+  return (
+    <div>
+      <Header />
+    </div>
+  )
 }
 
 export default App;
