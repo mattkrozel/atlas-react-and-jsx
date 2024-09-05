@@ -1,5 +1,6 @@
 import { Header } from './components/Header';
 import { Section } from './components/Section';
+import { HelpfulResource } from './components/HelpfulResource';
 
 function App() {
   return (
@@ -17,8 +18,13 @@ function App() {
           <li>Great for SEOs</li>
         </ul>
       </Section>
+      <Section title='Helpful Resources'>
+        <HelpfulResource label='React Documentation - Quickstart' link='https://react.dev/learn' />
+        <HelpfulResource label='React Tutorial - Geeks for Geeks' link='https://www.geeksforgeeks.org/react-tutorial/?ref=shm' />
+        <HelpfulResource label='What is React - Epic React' link='https://www.epicreact.dev/what-is-react' />
+      </Section>
     </div>
-  )
+  );
 }
 
 export default App;
